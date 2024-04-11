@@ -10,7 +10,8 @@ npm install rate-limiter
 ```
 // Example middleware usage with Leaky Bucket algorithm
 app.use('/api', rateLimiter({ algorithm: 'leaky', capacity: 10, rate: 1 }));
-
+```
+```
 // Example middleware usage with Token Bucket algorithm
 app.use('/api2', rateLimiter({ algorithm: 'token', capacity: 10, rate: 1 }));
 ```
