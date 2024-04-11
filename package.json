@@ -1,0 +1,18 @@
+{
+    "name": "rate-limiter",
+    "version": "1.0.0",
+    "description": "Middleware function for rate limiting in Node.js Express servers",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"No tests specified\" && exit 0"
+    },
+    "keywords": [
+      "rate",
+      "limiter",
+      "middleware",
+      "express"
+    ],
+    "author": "Astitwa dwivedi",
+    "license": "MIT"
+  }
+  
